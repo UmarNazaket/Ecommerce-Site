@@ -1,0 +1,93 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f1f1f1;
+  }
+  
+  .shop-heading {
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+  
+  .shop-heading h2 {
+    font-size: 2.5em;
+  }
+  
+  .shop-heading p {
+    padding-top: 0.5rem;
+    margin-left: 1.5rem;
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .heading-date {
+    display: flex;
+  }
+  
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+  }
+  
+  #search-input {
+    padding: 0.7em;
+    width: 15rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  hr {
+    margin: 1.5em 0;
+    border: none;
+    border-top: 1px solid #ddd;
+  }
+  
+  .product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  
+  .product-card {
+    width: 300px;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .product-card h3 {
+    margin: 0.5em 0;
+    font-size: 1.2em;
+  }
+  
+  .product-card p {
+    margin: 0.5em 0;
+    color: #666;
+  }
+  
+  .product-card span {
+    font-weight: bold;
+    color: #00008B;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #fff;
+  }
+  
+  footer p {
+    color: #666;
+  }
+  

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz@6..72&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./profile.css">
+  <script src="./profile.js"></script>
+  <title>User Profile - Produce Gateway</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="brand">Produce Gateway</a>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sell.html">Sell With Us</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <div class="buttons">
+        <a href="login.html" id="loginBtn" class="btn btn-secondary">Login</a>
+        <a onclick="logoutUser()" id="logoutBtn" class="btn btn-danger">Logout</a>
+        <a href="profile.html" id="profileBtn"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a>
+        <a href="cart.html" class="btn btn-primary">Cart</a>
+      </div>
+      <button class="menu-btn">
+        <span class="fas fa-bars"></span>
+      </button>
+    </nav>
+  </header>
+  <main>
+    <div class="profile-container">
+      <section class="user-details">
+        <!-- User details will be populated here -->
+      </section>
+      <section class="past-orders">
+        <!-- Past orders will be populated here -->
+      </section>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2023 Produce Gateway. All rights reserved.</p>
+  </footer>
+  <script src="./navbar.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f8f9fa; /* Light gray background */
+    color: #495057; /* Dark gray text color */
+  }
+  
+  .profile-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+  }
+  .user-details{
+    height: 15rem;
+  }
+  
+  .user-details, .past-orders {
+    width: 48%;
+    background: #fff; /* White background */
+    padding: 1.5em;
+    border-radius: 8px;
+    border: 1px solid #00008B;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .user-details h2, .past-orders h2 {
+    font-size: 1.8em;
+    color: #343a40; /* Dark heading color */
+  }
+  
+  .user-details p, .past-orders p {
+    margin: 0.5em 0;
+  }
+  
+  .order-item {
+    margin: 0.5em 0;
+  }
+  
+  .order-details {
+    margin-top: 0.5em;
+    background: #f1f1f1; /* Light gray background */
+    padding: 1em;
+    border-radius: 8px;
+    /* border: 1px solid #00008B; */
+  }
+  
+  .order-details p {
+    margin: 0.2em 0;
+    color: #495057; /* Dark gray text color */
+  }
+  

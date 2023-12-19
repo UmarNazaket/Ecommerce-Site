@@ -1,0 +1,68 @@
+/* Add styles for the checkout page here */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f1f1f1;
+}
+
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+}
+
+.order-summary, .customer-details {
+    width: 48%;
+}
+
+.order-summary {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 0.4rem 1rem;
+    border-radius: 0.4rem;
+}
+
+.order-summary h2 {
+    font-size: 2em;
+}
+
+.order-details {
+    margin-top: 1em;
+}
+
+.order-details p {
+    margin: 0.5em 0;
+}
+
+.customer-details {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 0.4rem 1rem;
+    border-radius: 0.4rem;
+}
+
+.customer-details form {
+    display: flex;
+    flex-direction: column;
+}
+
+.customer-details label {
+    margin-bottom: 0.5em;
+}
+
+.customer-details input {
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+#place-order-btn {
+    margin-top: 1em;
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    background-color: #00008B;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#place-order-btn:hover {
+    background-color: #03468f;
+}
