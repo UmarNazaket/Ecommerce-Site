@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz@6..72&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Produce Gateway</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="brand">Produce Gateway</a>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="sell.html">Sell With Us</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="buttons">
+          <a href="login.html" id="loginBtn" class="btn btn-secondary">Login</a>
+          <a onclick="logoutUser()" id="logoutBtn" class="btn btn-danger">Logout</a>
+          <a href="profile.html" id="profileBtn"><i class="fa fa-user fa-2x" aria-hidden="true"></i></a>
+          <a href="cart.html" class="btn btn-primary">Cart</a>
+        </div>
+        <button class="menu-btn">
+          <span class="fas fa-bars"></span>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <article class="container">
+        <section class="header-body">
+          <section class="header-text">
+            <div>
+              <h1 class="title">
+                Welcome to <br> Freshness
+              </h1>
+              <p>
+                Explore Quality Produce at Affordable Prices
+              </p>
+              <div class="buttons">
+                <a href="shop.html" class="btn btn-primary">
+                  Shop Now
+                </a>
+                <a href="index.html" class="btn btn-secondary">
+                  More about us!
+                </a>
+              </div>
+            </div>
+            <div class="stats">
+              <section>
+                <h2 class="counter" data-count="1+">1+</h2>
+                <p>Customers</p>
+              </section>
+              <section>
+                <h2 class="counter" data-count="1">1+</h2>
+                <p>Produced listed</p>
+              </section>
+            </div>
+          </section>
+          <section class="banner">
+            <img src="img/farmer.jpeg" alt="farmer">
+          </section>
+        </section>
+      </article>
+      <article class="cards">
+        <section class="container">
+          <section class="card">
+            <img src="img/local.jpeg" alt="local-produce">
+            <article class="card-text">
+              <h3>Locally-sourced Produce</h3>
+              <p>We offer a diverse selection of fruits and vegetables sourced directly from local growers.</p>
+            </article>
+          </section>
+          <section class="card">
+            <img src="img/Quality.jpeg" alt="quality">
+            <article class="card-text">
+              <h3>Quality Assurance</h3>
+              <p>We ensure that our customers receive only the highest quality products.</p>
+            </article>
+          </section>
+          <section class="card">
+            <img src="img/sustainable.jpeg" alt="sustainability">
+            <article class="card-text">
+              <h3>Sustainability and Community Wellness</h3>
+              <p>By supporting local growers, we promote sustainability and contribute to the wellness of our communities.</p>
+            </article>
+          </section>
+        </section>
+      </article>
+      <article class="featured-produce-container">
+        <h2>Today's Featured Produce</h2>
+        <section class="produce">
+          <!-- Add produce cards here -->
+        </section>
+      </article>
+      <article class="about-us-container">
+        <section class="about-us">
+          <h2>About Produce Gateway</h2>
+          <p>Produce Gateway is a dynamic e-commerce marketplace
+            dedicated to connecting consumers directly with local farmers
+            for fresh produce. Emphasizing sustainability and community support,
+            we offer a wide range of high-quality fruits and vegetables sourced responsibly.
+            Our platform not only ensures freshness but also strengthens local agriculture
+            and reduces environmental impact. By choosing Produce Gateway, customers
+            contribute to a sustainable food system and enjoy the freshest
+            produce delivered to their doorstep.
+          </p>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>&copy; 2023 Produce Gateway. All rights reserved.</p>
+    </footer>
+    
+    <script src="./index.js"></script>
+    <script src="./navbar.js"></script>
+  </body>
+</html>
